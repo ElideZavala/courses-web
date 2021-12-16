@@ -43,7 +43,6 @@ body {
 	margin: 0;
 	opacity: 0;
 	text-shadow: 0 0 5px #98c9dd;
-	padding: .2rem;
 }
 
 .panel.active {
@@ -64,6 +63,9 @@ body {
 		height: 60vh;
 		margin: 2px;
 	}
+	.panel h3 {
+		font-size: 1rem;
+	}
 }
 
 @media (max-width: 600px) {
@@ -71,16 +73,17 @@ body {
 		height: 50vh;
 		margin: 2px;
 	}
+	.panel h3 {
+		font-size: 0.8rem;
+	}
 }
 
 @media (max-width: 480px) {
 	.container {
 		width: 100vw;
 	}
-
-	.panel:nth-of-type(4),
-	.panel:nth-of-type(5),
-	.panel:nth-of-type(6) {
-		display: none;
+	.panel {
+		height: 35vh;
+		margin: 2px;
 	}
 }
