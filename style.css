@@ -87,3 +87,13 @@ body {
 		margin: 2px;
 	}
 }
+
+@media (max-width: 400px) {
+	.container {
+		width: 100vw;
+	}
+	.panel {
+		height: 28vh;
+		margin: 2px;
+	}
+}
